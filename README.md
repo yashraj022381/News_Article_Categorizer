@@ -1,11 +1,13 @@
 # News_Article_Categorizer
 
  1. 📰 Project Overview
+    
     - This project implements a Natural Language Processing (NLP) solution to automatically classify news articles into             predefined categories. It uses a machine learning approach, specifically the Multinomial Naive Bayes classifier,              trained on a corpus of news data.
 
     - The model is built to distinguish between five major news categories: 'entertainment', 'business', 'sport', 'politics',       and 'tech'.
    
  2. ✨ Features
+  
     - Data Preprocessing: Includes custom functions for cleaning text data, such as converting text to lowercase,                   tokenization, removing punctuation, and filtering out English stopwords.
 
     - Feature Engineering: Explores two distinct text vectorization methods for comparison:
@@ -19,7 +21,8 @@
     - Model Evaluation: Performance metrics are generated using classification_report to assess the model's accuracy,               precision, recall, and F1-score for each category.
 
  3. 💻 Technologies Used
-    The project is developed using Python and relies on the following key libraries:
+    
+  - The project is developed using Python and relies on the following key libraries:
 
     - Python 3.x
 
@@ -87,7 +90,8 @@
      
      custom_text = "Artificial intelligence is revolutionizing the tech industry, with companies racing to develop the next         big innovation."
 
-   6. 📊 Results and Evaluation
-     - The notebook evaluates the performance of the Multinomial Naive Bayes model using both vectorization techniques (BoW          and TF-IDF) on the test set.
+   5. 📊 Results and Evaluation
+      
+   - The notebook evaluates the performance of the Multinomial Naive Bayes model using both vectorization techniques (BoW          and TF-IDF) on the test set.
 
-       (Note: You would typically include the actual performance metrics here once the notebook is run.)
+     (Note: You would typically include the actual performance metrics here once the notebook is run.)
